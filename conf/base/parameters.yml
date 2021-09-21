@@ -1,0 +1,11 @@
+# Preprocessing parameters
+cols_num: ['sepal_length','sepal_width','petal_length','petal_width']
+
+# Training parameters
+cols_feat: ['sepal_length','sepal_width','petal_length','petal_width']
+
+# Model parameters
+model_params: {'max_depth': 2}
+
+# Evaluation parameters
+baseline: 0.1 # F1 score metric
